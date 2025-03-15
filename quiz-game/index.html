@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Rush Game</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header>
+  <h1>Quiz Rush Game</h1>
+</header>
+
+<main>
+  <!-- 🏁 Setup Screen -->
+  <section id="setupScreen">
+    <h2>Select Number of Players</h2>
+    <label for="playerCount">Players:</label>
+    <select id="playerCount">
+      <option value="1">1 Player</option>
+      <option value="2">2 Players</option>
+      <option value="3">3 Players</option>
+      <option value="4">4 Players</option>
+    </select>
+
+    <h2>Select Quiz Topic</h2>
+    <label for="quizTopic">Topic:</label>
+    <select id="quizTopic">
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="javascript">JavaScript</option>
+      <option value="mixed">Mixed</option>
+    </select>
+
+    <h2>Difficulty Level</h2>
+    <label for="difficulty">Questions per Player:</label>
+    <select id="difficulty">
+      <option value="" selected disabled>Select difficulty</option>
+      <option value="3">3 Questions</option>
+      <option value="4">4 Questions</option>
+      <option value="5">5 Questions</option>
+    </select>
+
+    <!-- Initially Hidden Start Button -->
+    <div id="startGameContainer" style="display: none;">
+      <button id="startGame">Start Game</button>
+    </div>
+  </section>
+
+  <!-- 🕹️ Game Screen (Hidden Initially) -->
+  <section id="gameScreen" style="display: none;">
+    <h2 id="currentPlayer">It's <span id="playerName">Player 1</span>'s Turn</h2>
+    <p id="timer">Time Left: <span id="timeLeft">10</span> sec</p>
+    <h3 id="question-text">Loading question...</h3>
+    <div id="answer-buttons"></div>
+    <button id="nextQuestion">Next Question</button>
+  </section>
+</main>
+
+<script type="module"  src="/src/js/setup.js"></script>
+
+</body>
+</html>

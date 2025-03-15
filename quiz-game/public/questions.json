@@ -1,0 +1,145 @@
+{
+  "html": [
+    {
+      "question": "Which element is used to define a hyperlink in HTML?",
+      "options": [
+        "<link>",
+        "<href>",
+        "<a>",
+        "<url>"
+      ],
+      "correctIndex": 2,
+      "points": 10
+    },
+    {
+      "question": "Which HTML element is used to define the most important heading?",
+      "options": [
+        "<header>",
+        "<head>",
+        "<h1>",
+        "<h6>"
+      ],
+      "correctIndex": 2,
+      "points": 10
+    },
+    {
+      "question": "What is the correct HTML element for inserting a line break?",
+      "options": [
+        "<br>",
+        "<lb>",
+        "<line>",
+        "<break>"
+      ],
+      "correctIndex": 0,
+      "points": 10
+    }
+  ],
+
+  "css": [
+    {
+      "question": "Which CSS property controls the text size?",
+      "options": [
+        "font-style",
+        "text-size",
+        "text-style",
+        "font-size"
+      ],
+      "correctIndex": 3,
+      "points": 10
+    },
+    {
+      "question": "Which property is used to change the background color?",
+      "options": [
+        "color",
+        "background-color",
+        "bgcolor",
+        "background-img"
+      ],
+      "correctIndex": 1,
+      "points": 10
+    },
+    {
+      "question": "Which of the following positions the element relative to its first positioned ancestor?",
+      "options": [
+        "static",
+        "relative",
+        "absolute",
+        "fixed"
+      ],
+      "correctIndex": 2,
+      "points": 10
+    }
+  ],
+
+  "javascript": [
+    {
+      "question": "Inside which HTML element do we place JavaScript code by default?",
+      "options": [
+        "<script>",
+        "<js>",
+        "<javascript>",
+        "<code>"
+      ],
+      "correctIndex": 0,
+      "points": 10
+    },
+    {
+      "question": "How do you write 'Hello World' in an alert box?",
+      "options": [
+        "msg('Hello World');",
+        "alertBox('Hello World');",
+        "alert('Hello World');",
+        "msgBox('Hello World');"
+      ],
+      "correctIndex": 2,
+      "points": 10
+    },
+    {
+      "question": "Which symbol is used for single-line comments in JavaScript?",
+      "options": [
+        "/*",
+        "//",
+        "#",
+        "<!-- -->"
+      ],
+      "correctIndex": 1,
+      "points": 10
+    }
+  ],
+
+  "mixed": [
+    {
+      "question": "Which HTML attribute is used to define inline styles?",
+      "options": [
+        "font",
+        "class",
+        "style",
+        "styles"
+      ],
+      "correctIndex": 2,
+      "points": 10
+    },
+    {
+      "question": "In CSS, what does the 'p' in 'p { color: red; }' specifically target?",
+      "options": [
+        "The parent element",
+        "All paragraphs",
+        "A class named 'p'",
+        "A page with ID 'p'"
+      ],
+      "correctIndex": 1,
+      "points": 10
+    },
+    {
+      "question": "What keyword is used to declare a JavaScript variable in the latest standards?",
+      "options": [
+        "new",
+        "let",
+        "int",
+        "dim"
+      ],
+      "correctIndex": 1,
+      "points": 10
+    }
+  ]
+}
